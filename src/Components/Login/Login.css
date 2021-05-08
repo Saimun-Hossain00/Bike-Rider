@@ -1,0 +1,92 @@
+.login-form {
+  color: rgb(161, 53, 53);
+  width: 500px;
+  min-width: 400px;
+  max-height: 700px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.customUser {
+  border: 1px solid darkgray;
+  padding: 35px;
+  border-radius: 5px;
+}
+
+.login-form .form-control {
+  border: none;
+  border-bottom: 1px solid darkgray;
+}
+
+.login-form .form-control:focus {
+  box-shadow: none;
+}
+
+.login-form .social-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form .social-login .btn img {
+  height: 25px;
+  width: 25px;
+  text-align: left;
+  margin-right: 2px;
+}
+
+.login-form .social-login .btn {
+  border-radius: 60px;
+  border: 1px solid rgb(136, 38, 38);
+  padding: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.login-form .social-login .btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.login-form .another {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.login-form .another:before,
+.login-form .another:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid darkgray;
+  margin: auto;
+}
+
+.login-form .another:before {
+  margin-right: 10px;
+}
+
+.login-form .another:after {
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+#resPass {
+  color: red;
+}
+
+@media screen and (max-width: 736px) {
+  .login-form {
+    width: 350px;
+  }
+  .customUser {
+    padding: 20px;
+  }
+}

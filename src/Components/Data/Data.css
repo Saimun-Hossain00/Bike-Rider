@@ -1,0 +1,11 @@
+.cartVehicle:hover {
+  cursor: pointer;
+}
+.cartVehicle img {
+  max-width: 200px;
+  width: 100%;
+  margin: 20px;
+  height: 225px;
+  object-fit: cover;
+  display: block;
+}

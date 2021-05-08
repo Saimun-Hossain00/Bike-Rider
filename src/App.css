@@ -1,0 +1,10 @@
+.home {
+  height: 90vh;
+  background-image: linear-gradient(red, yellow);
+}
+
+@media screen and (max-width: 736px) {
+  .home {
+    height: 300vh;
+  }
+}

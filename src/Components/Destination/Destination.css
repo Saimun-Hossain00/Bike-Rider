@@ -1,0 +1,13 @@
+.selected-ride {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: blue;
+  background-color: rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 10px;
+}
+.selected-ride img {
+  width: 50px;
+}
